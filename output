@@ -5163,3 +5163,27 @@ Parameters: {"q"=>"South Africa"}
 Parameters: {"q"=>"South Africa"}
 Parameters: {"q"=>"South Africa"}
 Parameters: {"q"=>"South Africa"}
+Parameters: {"q"=>"South Africa"}
+Parameters: {}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {}
+Parameters: {}
+Parameters: {}
+Parameters: {}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+Parameters: {}
+Parameters: {"q"=>""}
+Parameters: {"q"=>"chicago"}
+Parameters: {"q"=>"chicago"}
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2020-02-23 23:49:26 +0000 ===
+- Goodbye!
