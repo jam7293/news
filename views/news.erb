@@ -18,12 +18,29 @@
     <!-- Your own CSS -->
     <link rel="stylesheet" href="/styles.css">
 
-    <title>News</title>
+    <title>Weather & News</title>
   </head>
   <body>
 
     <div class="container mt-5">
+      <h1>Weather</h1>
+    </div>
+    
+    <div class="container mt-5">
+    <p>In Chicago, it is currently <%= @current_temperature.round() %> and <%= @conditions %></p>
+    <% for day in @forecast["daily"]["data"] %>
+    <p>A high temperature of <%= day["temperatureHigh"].round() %> and <%= day["summary"] %></p>
+    <% end %>
+    </div>
+
+    <div class="container mt-5">
       <h1>News</h1>
+    </div>
+    
+    <div class="container mt-5">
+    <% for article in @news["articles"] %>
+    <p><a href= "<%= article["url"] %>"> <%= article["title"] %></a></p>
+    <% end %>
     </div>
 
     <!-- Optional JavaScript -->
