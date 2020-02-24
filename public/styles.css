@@ -1,11 +1,17 @@
 h1 {
     text-align:left;
     font-size:60px;
-    color:black;
+    color:white;
 }
 .newspage{
     background-color: lightgrey;
 }
 .homepage{
     background-color: lightgrey;
+}
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url(nightsky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
