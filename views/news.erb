@@ -20,8 +20,9 @@
 
     <title>Weather & News</title>
   </head>
-  <body>
-
+  
+  <body class="newspage">
+  
     <div class="container mt-5">
       <h1>Local Weather</h1>
     </div>
@@ -30,7 +31,7 @@
     <p>In Chicago, it is currently <%= @current_temperature.round() %> and <%= @conditions %></p>
     <% for day in @forecast["daily"]["data"] %>
     <p>A high temperature of <%= day["temperatureHigh"].round() %> and <%= day["summary"] %></p>
-    <img src="https://darksky.net/images/weather-icons/<%= day["icon"] %>.png" class="img-fluid">
+    <img src="https://darksky.net/images/weather-icons/<%= day["icon"] %>.png" height="36rem">
     <% end %>
     </div>
 
